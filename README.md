@@ -1,7 +1,9 @@
 # EADA_Data_Augment
 EADA, a data augment method for NLP tasks
 
+### Dataset:
 
+Upload all dataset in experiment, which are atis, conll2003 and snips.
 
 ### File function：
 
