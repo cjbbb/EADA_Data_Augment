@@ -1,6 +1,20 @@
 # EADA_Data_Augment
 EADA, a data augment method for NLP tasks
 
+### How to Use:
+
+Use the atis dataset as an example, 
+
+First, run the 'Atis_Dataset_Generate' to generate active_entity and active_packages in Atis folder.
+
+Then, run the 'Entity-based_Tree_Atis' to generate entity-based tree for atis dataset. This tree is stored in sentence-simulator-master folder.
+
+Last, use run.py in sentence-simulator-master folder, like 
+
+```
+python run.py -f TreeSum.json -c 10 -w out/word.txt -s out/sent.txt
+```
+
 ### Dataset:
 
 Upload all dataset in experiment, which are atis, conll2003 and snips.
